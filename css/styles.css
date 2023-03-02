@@ -1,3 +1,9 @@
 body {
-    color: tomato;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #FFFFFF;
+}
+/* header */
+.header {
+
 }
