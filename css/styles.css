@@ -74,7 +74,7 @@ text-decoration: none;
         color: #434455;
 }
 
-/* кнопки */
+/* секція 1 */
 .hero-btn-list{
         font-family: inherit;
         font-style: normal;
@@ -86,3 +86,9 @@ text-decoration: none;
         letter-spacing: 0.04em;
         color: #FFFFFF;
 }
+.hero {}
+
+.hero-list {}
+
+ 
+.hero-btn-list {}
