@@ -27,8 +27,10 @@ text-decoration: none;
         text-decoration: none;
 }
 
+
 .logo {
-        font-family: 'Raleway';
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         line-height: 1.33;
         display: flex;
@@ -40,7 +42,8 @@ text-decoration: none;
 
 
 .header-logo {
-        font-family: 'Raleway';
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         line-height: 1.33;
         display: flex;
@@ -71,6 +74,7 @@ text-decoration: none;
         color: #434455;
 }
 
+/* кнопки */
 .hero-btn-list{
         font-family: inherit;
         font-style: normal;
