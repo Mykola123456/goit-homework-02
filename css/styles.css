@@ -23,7 +23,7 @@ text-decoration: none;
 
 }
 /* логотип */
-.list {
+.link {
         text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ text-decoration: none;
         font-weight: 800;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
-        line-height: 1.33;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
