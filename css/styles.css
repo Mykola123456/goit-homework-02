@@ -7,6 +7,7 @@ body {
         --second-title-color: #2E2F42;
         --paragraph-title-font-family: 'Roboto',
         sans-serif;
+        
 }
 
 
@@ -72,8 +73,7 @@ body {
 }
 
 .address-mail {
-        font-family: var(--paragraph-title-font-family)
-        
+        font-family: var(--paragraph-title-font-family);
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -83,7 +83,7 @@ body {
     
 .address-tel {
         
-        
+        font-family: var(--paragraph-title-font-family);
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
