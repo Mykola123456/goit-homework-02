@@ -5,6 +5,8 @@ body {
 :root {
         --main-title-color: #ffffff ;
         --second-title-color: #2E2F42;
+--paragraph-title-font-family: 'Roboto',
+        sans-serif;
 }
 
 
@@ -88,7 +90,7 @@ body {
 
 /* секція 1 */
 .title {
-        background: #2E2F42;
+        background: var(--second-title-color);
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
@@ -109,6 +111,7 @@ body {
         background: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        cursor: pointer
 
 }
 .hero-btn-list {
@@ -123,9 +126,40 @@ body {
         letter-spacing: 0.04em;
         color: #4D5AE5;
         background: #F4F4FD;
+        cursor: pointer
 }
+
+
 .hero {}
 
 .hero-list {}
+
+/* секція індекс 2 */
+
+.list {
+        list-style: none;
+}
+.about {}
+.about-list {}
+
+.title-about {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--second-title-color);
+}
+
+.title-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* секція індекс 3 */
+
 
  
