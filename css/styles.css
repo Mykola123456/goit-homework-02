@@ -5,7 +5,7 @@ body {
 :root {
         --main-title-color: #ffffff ;
         --second-title-color: #2E2F42;
---paragraph-title-font-family: 'Roboto',
+        --paragraph-title-font-family: 'Roboto',
         sans-serif;
 }
 
@@ -101,7 +101,7 @@ body {
         text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        background: var(--second-title-color);
+        
 }
 
 .hero-button{
@@ -137,7 +137,9 @@ body {
 }
 
 
-.hero {}
+.hero {
+background: var(--second-title-color);
+}
 
 .hero-list {}
 
@@ -174,7 +176,7 @@ body {
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -219,6 +221,9 @@ body {
         letter-spacing: 0.02em;
         color: #E7E9FC;
         
+}
+.footer {
+background: var(--second-title-color);
 }
 
  
