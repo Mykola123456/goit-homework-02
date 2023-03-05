@@ -180,4 +180,45 @@ body {
         text-transform: capitalize;
         color: #2E2F42;
 }
+
+
+/* футер */
+.logo {
+        font-style: normal;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+
+
+.footer-logo {
+        font-style: normal;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        line-height: 1.33;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
+
+.footer-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
+        
+}
+
  
