@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455
 }
+:root {
+        --main-title-color: #ffffff ;
+        --second-title-color: #2E2F42;
+}
 
 
 
@@ -83,7 +87,16 @@ body {
 
 
 /* секція 1 */
-.hero-btn-list{
+.title {
+        background: #2E2F42;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+
+.hero-button{
         font-family: inherit;
         font-style: normal;
         font-weight: 500;
@@ -93,10 +106,26 @@ body {
         align-items: center;
         letter-spacing: 0.04em;
         color: #FFFFFF;
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+
+}
+.hero-btn-list {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background: #F4F4FD;
 }
 .hero {}
 
 .hero-list {}
 
  
-.hero-btn-list {}
