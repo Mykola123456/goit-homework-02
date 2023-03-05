@@ -18,6 +18,7 @@ body {
 
 
 .logo {
+        font-style: normal;
         font-weight: 800;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
@@ -31,6 +32,7 @@ body {
 
 
 .header-logo {
+        font-style: normal;
         font-weight: 800;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
@@ -43,8 +45,7 @@ body {
 }
 /* адреса */
 
-.link:is(:hover, :focus, :active) {
-        color: #404bbf
+
 }
 .link {
         text-decoration: none;
@@ -62,13 +63,16 @@ body {
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
+.link:is(:hover, :focus, :active) {
+        color: #404bbf
+}
 
 .adress {
         font-style: normal;
 }
 
 .address-mail {
-        font-family: 'Roboto';
+        font-family: var(--paragraph-title-font-family)
         
         font-weight: 400;
         font-size: 16px;
@@ -90,12 +94,14 @@ body {
 
 /* секція 1 */
 .title {
-        background: var(--second-title-color);
+        font-style: normal;
+        font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
+        background: var(--second-title-color);
 }
 
 .hero-button{
@@ -114,12 +120,13 @@ body {
         cursor: pointer
 
 }
+
 .hero-btn-list {
-        font-family: 'Roboto', sans-serif;
+        font-family: var(--paragraph-title-font-family);
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         display: flex;
         align-items: center;
         text-align: center;
@@ -160,6 +167,8 @@ body {
 }
 
 /* секція індекс 3 */
-
+.list {
+        list-style: none;
+}
 
  
