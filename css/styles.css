@@ -19,8 +19,8 @@ text-decoration: none;
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.header-link:hover {
-
+.link:hover,.header-link:focus  {
+color: #404BBF;
 }
 /* логотип */
 .link {
@@ -54,9 +54,13 @@ text-decoration: none;
 }
 /* адреса */
 
+.adress {
+        font-style: normal;
+}
+
 .address-mail {
         font-family: 'Roboto';
-        font-style: normal;
+        
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -66,13 +70,14 @@ text-decoration: none;
     
 .address-tel {
         
-        font-style: normal;
+        
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
 
 /* секція 1 */
 .hero-btn-list{
