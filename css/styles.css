@@ -3,25 +3,8 @@ body {
     color: #434455
 }
 
-.link {
-text-decoration: none;
 
-}
 
-.list {
-    list-style: none;
-}
-
-.header-link {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-}
-.link:hover,.header-link:focus  {
-color: #404BBF;
-}
 /* логотип */
 .link {
         text-decoration: none;
@@ -53,6 +36,26 @@ color: #404BBF;
         color: #2E2F42;
 }
 /* адреса */
+
+.link:is(:hover, :focus, :active) {
+        color: #404bbf
+}
+.link {
+        text-decoration: none;
+
+}
+
+.list {
+        list-style: none;
+}
+
+.header-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
 .adress {
         font-style: normal;
