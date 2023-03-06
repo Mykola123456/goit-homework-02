@@ -7,6 +7,7 @@ body {
         --second-title-color: #2E2F42;
         --paragraph-title-font-family: 'Roboto',
         sans-serif;
+        --adres-title-color: #434455;
         
 }
 
@@ -78,7 +79,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--adres-title-color);
 }
     
 .address-tel {
@@ -88,7 +89,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--adres-title-color);
 }
 
 
@@ -163,7 +164,7 @@ background: var(--second-title-color);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--adres-title-color);
 }
 
 
@@ -218,7 +219,7 @@ background: var(--second-title-color);
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--adres-title-color);
 }
 
 
