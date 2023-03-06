@@ -47,7 +47,7 @@ body {
 /* адреса */
 
 
-}
+
 .link {
         text-decoration: none;
 
@@ -145,9 +145,7 @@ background: var(--second-title-color);
 
 /* секція індекс 2 */
 
-.list {
-        list-style: none;
-}
+
 .about {}
 .about-list {}
 
@@ -167,6 +165,7 @@ background: var(--second-title-color);
         letter-spacing: 0.02em;
         color: #434455;
 }
+
 
 /* секція індекс 3 */
 .list {
