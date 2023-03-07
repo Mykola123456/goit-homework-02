@@ -13,7 +13,7 @@ body {
 
 
 
-/* логотип */
+/* логотип ----------------------------------------------------------*/
 .link {
         text-decoration: none;
 }
@@ -22,7 +22,7 @@ body {
 .logo {
         font-style: normal;
         font-weight: 800;
-        font-family: 'Raleway', sans-serif;
+        font-family: var(--paragraph-title-font-family);
         font-size: 18px;
         line-height: 1.17;
         display: flex;
@@ -36,7 +36,7 @@ body {
 .header-logo {
         font-style: normal;
         font-weight: 800;
-        font-family: 'Raleway', sans-serif;
+        font-family: var(--paragraph-title-font-family);
         font-size: 18px;
         line-height: 1.33;
         display: flex;
@@ -45,7 +45,7 @@ body {
         text-transform: uppercase;
         color: #2E2F42;
 }
-/* адреса */
+/* адреса------------------------------------------------------------- */
 
 
 
@@ -93,7 +93,7 @@ body {
 }
 
 
-/* секція 1 */
+/* секція 1 ---------------------------------------------------*/
 .title {
         font-style: normal;
         font-weight: 700;
@@ -105,8 +105,9 @@ body {
         
 }
 
+/* кнопки ---------------------------------------------*/
 .hero-button{
-        font-family: inherit;
+        font-family: var(--paragraph-title-font-family);
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -119,7 +120,10 @@ body {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         cursor: pointer
-
+}
+.button:is(:hover, :focus, :active) {
+        color: #FFFFFF;
+        background: #404BBF;
 }
 
 .hero-btn-list {
@@ -135,20 +139,36 @@ body {
         color: #4D5AE5;
         background: #F4F4FD;
         cursor: pointer
+
 }
+
+
+.btn:hover {
+        color: #FFFFFF;
+        background: #404BBF;
+}
+
+.btn:focus {
+        color:#FFFFFF;
+        background: #404BBF;
+}
+.btn:active {
+        color: #FFFFFF;
+}
+
+
+
+/* hero -------------------------------------------*/
 
 
 .hero {
 background: var(--second-title-color);
 }
 
-.hero-list {}
-
-/* секція індекс 2 */
 
 
-.about {}
-.about-list {}
+/* секція  2 ----------------------------------------------------*/
+
 
 .title-about {
         font-style: normal;
@@ -160,7 +180,7 @@ background: var(--second-title-color);
 }
 
 .title-text {
-        font-weight: 400;
+        
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -168,7 +188,7 @@ background: var(--second-title-color);
 }
 
 
-/* секція індекс 3 */
+/* секція  3 ----------------------------------------------------------*/
 .list {
         list-style: none;
 }
@@ -182,8 +202,14 @@ background: var(--second-title-color);
         text-transform: capitalize;
         color: #2E2F42;
 }
-/* секція індекс 4 */
-.team {}
+/* секція  4 ----------------------------------------------------*/
+.team {
+        background: #F4F4FD;
+}
+.team-list {
+        background: #FFFFFF;
+                
+}
 
 .team-title {
         font-style: normal;
@@ -196,11 +222,7 @@ background: var(--second-title-color);
         color: #2E2F42;
 }
 
-.team-item {}
 
-.list {}
-
-.team-list {}
 
 .team-title-link {
         font-style: normal;
@@ -213,8 +235,7 @@ background: var(--second-title-color);
 }
 
 .team-text {
-        font-style: normal;
-        font-weight: 400;
+        
         font-size: 16px;
         line-height: 1.5;
         text-align: center;
@@ -223,12 +244,12 @@ background: var(--second-title-color);
 }
 
 
-/* футер */
+/* футер -----------------------------------------------------------*/
 
 .logo {
         font-style: normal;
         font-weight: 800;
-        font-family: 'Raleway', sans-serif;
+        font-family: var(--paragraph-title-font-family);
         font-size: 18px;
         line-height: 1.17;
         display: flex;
@@ -242,7 +263,7 @@ background: var(--second-title-color);
 .footer-logo {
         font-style: normal;
         font-weight: 800;
-        font-family: 'Raleway', sans-serif;
+        font-family: var(--paragraph-title-font-family);
         font-size: 18px;
         line-height: 1.33;
         display: flex;
@@ -253,9 +274,7 @@ background: var(--second-title-color);
 }
 
 .footer-text {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+        
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
