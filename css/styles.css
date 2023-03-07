@@ -22,7 +22,7 @@ body {
 .logo {
         font-style: normal;
         font-weight: 800;
-        font-family: var(--paragraph-title-font-family);
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         line-height: 1.17;
         display: flex;
@@ -249,7 +249,7 @@ background: var(--second-title-color);
 .logo {
         font-style: normal;
         font-weight: 800;
-        font-family: var(--paragraph-title-font-family);
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         line-height: 1.17;
         display: flex;
